@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>weather app</title>
+    <script type="module" crossorigin src="/assets/index-vzBBkFhI.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-ClX7A61m.css" />
+  </head>
+  <body class="bg-slate-800">
+    <div
+      class="max-w-96 h-[570px] bg-slate-50 mx-auto my-8 flex justify-center bg-gradient-to-br from-[#00FFBA] from-10% to-[#5C5389] rounded-3xl flex-col"
+    >
+      <div
+        id="dv"
+        class="mb-4 flex flex-row mt-8 h-14 w-full justify-center search"
+      >
+        <input
+          id="inpt"
+          class="py-2 px-4 font-bold text-3xl mr-4 bg-[#EBFFFD] rounded-full h-14 w-60"
+          type="text"
+          placeholder="Search"
+          name="inpt"
+        /><button
+          id="btn"
+          class="w-14 h-14 rounded-full bg-[rgb(235,255,253)] flex justify-center items-center"
+        >
+          <img
+            src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%20width='32px'%20height='28px'%3e%3cpath%20d='M%2010.5%201%20C%208.019531%201%206%203.019531%206%205.5%20C%206%206.558594%206.382813%207.523438%207%208.292969%20L%202.023438%2013.269531%20L%202.726563%2013.980469%20L%207.707031%209%20C%208.476563%209.617188%209.441406%2010%2010.5%2010%20C%2012.980469%2010%2015%207.980469%2015%205.5%20C%2015%203.019531%2012.980469%201%2010.5%201%20Z%20M%2010.5%202%20C%2012.4375%202%2014%203.5625%2014%205.5%20C%2014%207.4375%2012.4375%209%2010.5%209%20C%208.5625%209%207%207.4375%207%205.5%20C%207%203.5625%208.5625%202%2010.5%202%20Z'/%3e%3c/svg%3e"
+            alt=""
+          />
+        </button>
+      </div>
+      <div id="logo" class="icon w-full flex justify-center">
+        <img id="img2" class="h-32" />
+      </div>
+      <div
+        id="temp"
+        class="my-2 w-full h-24 text-center font-bold text-7xl text-slate-200"
+      ></div>
+      <div
+        id="city"
+        class="my-4 text-center font-semibold text-4xl text-slate-200 w-full h-12"
+      ></div>
+      <div class="humidity-wind w-full h-1/2 flex flex-row">
+        <div
+          id="hum"
+          class="w-1/2 text-center pt-12 text-slate-200 text-4xl"
+        ></div>
+        <div
+          id="wnd"
+          class="w-1/2 text-center pt-12 text-slate-200 text-4xl"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
